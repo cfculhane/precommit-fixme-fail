@@ -1,0 +1,7 @@
+-   id: fixme-fail
+    name: Fail on FIXME comments
+    description: This hook fails on FIXME comments.
+    entry: fixme-fail.sh
+    language: script
+    types: [text]
+    pass_filenames: false
