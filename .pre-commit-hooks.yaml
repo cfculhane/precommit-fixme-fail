@@ -1,7 +1,7 @@
 -   id: fixme-fail
     name: Fail on FIXME comments
     description: This hook fails on FIXME comments.
-    entry: fixme-fail.py
+    entry: fixme-fail
     language: python
     types: [text]
     pass_filenames: false
