@@ -79,6 +79,9 @@ def has_fixme_comments():
         print(f"{RED}Error: Found FIXME in attempted commit. \n"
               f"Please remove all occurrences of FIXME before committing.{NC}\n")
         print(matches)
+        return True
+    else:
+        return False
 
 
 def main(argv: Sequence[str] | None = None) -> int:
