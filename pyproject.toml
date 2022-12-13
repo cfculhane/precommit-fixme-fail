@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "precommit-fixme-fail"
+version = "1.0.0"
+description = "This hook fails on FIXME comments."
+authors = ["Chris Culhane <cfculhane@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "precommit_fixme_fail"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
