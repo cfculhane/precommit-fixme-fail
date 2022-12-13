@@ -10,6 +10,8 @@ packages = [{include = "precommit_fixme_fail"}]
 [tool.poetry.dependencies]
 python = "^3.7"
 
+[project.scripts]
+fixme-fail = "fixme-fail"
 
 [build-system]
 requires = ["poetry-core"]
